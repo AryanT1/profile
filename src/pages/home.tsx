@@ -15,8 +15,29 @@ import { DiMongodb } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import Project from "../components/Project";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Experience from "../components/Experience";
+import DownloadResume from "../components/Download";
+import WriteToMe from "../components/Contact";
 
 const Home = () => {
+  const experiences = [
+    {
+      role: "Full Stack Developer",
+      company: "Concric(Tech Start )",
+      period: "Jan 2024 - Feb 2025",
+      responsibilities: [
+        "Developed scalable web applications using React, Node.js, and MongoDB.",
+        "Optimized backend APIs, reducing response times by 30%.",
+        "Collaborated with cross-functional teams to deliver features on tight deadlines.",
+      ],
+    },
+    {
+      role: "B.Tech",
+      company: "Model Institute of Engineering and Technology",
+      period: "Sept 2020 - July 2024",
+      responsibilities: [],
+    },
+  ];
   return (
     <div className="min-h-screen ">
       {/* Profile and Social Section */}
@@ -57,7 +78,7 @@ const Home = () => {
             href="https://github.com/AryanT1"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center hover:-translate-y-1 gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's GitHub"
           >
             <FaGithub className="text-xl" />
@@ -67,7 +88,7 @@ const Home = () => {
             href="https://www.linkedin.com/in/aryannthakur/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's LinkedIn"
           >
             <FaLinkedin className="text-xl" />
@@ -77,7 +98,7 @@ const Home = () => {
             href="https://x.com/Aryann_0"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center hover:-translate-y-1 gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's X"
           >
             <FaSquareXTwitter className="text-xl" />
@@ -102,7 +123,7 @@ const Home = () => {
       </div>
 
       {/* Skills and Projects Section */}
-      <div className="flex flex-col gap-6 p-4 sm:p-6 md:flex-row">
+      <div className="flex flex-col gap-6 lg:justify-center p-4 sm:p-6 md:flex-row">
         {/* Skills Card */}
         <div className="rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 transition-all duration-300 hover:shadow-lg md:w-1/2">
           <h2 className="text-3xl font-bold text-[#f7f7f6] mb-6">Skills</h2>
@@ -148,6 +169,18 @@ const Home = () => {
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col    sm:flex sm:flex-row gap-6 p-4 ">
+        <div className="flex mx-auto items-center">
+          <Experience experiences={experiences} />
+        </div>
+        <div className=" grid mx-auto  grid-col-2 gap-2 lg:gap-6 sm:flex sm:flex-col lg:flex-row lg:flex ">
+          <div>
+            <DownloadResume />
+          </div>
+          <div className=" sm:w-fit"><WriteToMe/></div>
         </div>
       </div>
     </div>

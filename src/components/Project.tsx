@@ -33,7 +33,7 @@ const Project = ({
           href={directionToGit}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-sm font-medium text-[hsla(52,97.3%,96.2%,0.8)] transition-all duration-200 hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+          className="flex hover:-translate-y-1 items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-sm font-medium text-[hsla(52,97.3%,96.2%,0.8)] transition-all duration-200 hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
           aria-label={`View on GitHub`}
         >
           <FaGithub className="text-lg" />
@@ -45,7 +45,7 @@ const Project = ({
             href={directionToSite}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-sm font-medium text-[hsla(52,97.3%,96.2%,0.8)] transition-all duration-200 hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center hover:-translate-y-1 gap-2 rounded-3xl bg-white/10 px-4 py-2 text-sm font-medium text-[hsla(52,97.3%,96.2%,0.8)] transition-all duration-200 hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label={`View website`}
           >
             <FaExternalLinkAlt className="text-lg" />
