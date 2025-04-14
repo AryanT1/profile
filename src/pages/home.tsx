@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         {/* Social Buttons Card */}
-        <div className="flex shrink-0 gap-11 rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 sm:flex-col sm:w-48 transition-all duration-300 hover:shadow-lg">
+        <div className="flex shrink-0 sm:gap-11 justify-between rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 sm:flex-col sm:w-48 transition-all duration-300 hover:shadow-lg">
           <a
             href="https://github.com/AryanT1"
             target="_blank"
