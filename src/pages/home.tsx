@@ -18,7 +18,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       {/* Profile and Social Section */}
       <div className="flex flex-col gap-6 p-4 sm:p-6 md:flex-row md:items-start">
         {/* Profile Card */}
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         {/* Social Buttons Card */}
-        <div className="flex  sm:gap-11 gap-1 justify-between rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 sm:flex-col sm:w-48 transition-all duration-300 hover:shadow-lg">
+        <div className="flex mx-auto sm:gap-11 gap-1 w-fit  rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 md:flex-col md:w-48 sm:w-fit transition-all duration-300 hover:shadow-lg">
           <a
             href="https://github.com/AryanT1"
             target="_blank"
