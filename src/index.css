@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+@import "tailwindcss";
+
+
+body{
+  background-color: hsl(60, 3.7%, 10.6%);
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-style: normal;
+}
+
