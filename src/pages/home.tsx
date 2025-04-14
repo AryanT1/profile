@@ -3,7 +3,11 @@ import clan from "../assets/Clan.png";
 import show from "../assets/Show.png";
 import {
   FaCss3,
+  FaGit,
+  FaGitAlt,
   FaGithub,
+  FaGitlab,
+  FaHtml5,
   FaLinkedin,
   FaNodeJs,
   FaReact,
@@ -135,9 +139,12 @@ const Home = () => {
               { icon: <IoLogoJavascript />, name: "JavaScript" },
               { icon: <BiLogoTypescript />, name: "TypeScript" },
               { icon: <FaCss3 />, name: "CSS" },
+              { icon: <FaHtml5 />, name: "HTML" },
               { icon: <DiMongodb />, name: "MongoDB" },
               { icon: <BiLogoPostgresql />, name: "PostgreSQL" },
               { icon: <SiPostman />, name: "Postman" },
+              { icon: <FaGitAlt />, name: "GIT" },
+              { icon: <FaGithub />, name: "GITHUB" },
               { icon: <RiTailwindCssFill />, name: "Tailwind CSS" },
             ].map((skill, index) => (
               <div
