@@ -3,10 +3,8 @@ import clan from "../assets/Clan.png";
 import show from "../assets/Show.png";
 import {
   FaCss3,
-  FaGit,
   FaGitAlt,
   FaGithub,
-  FaGitlab,
   FaHtml5,
   FaLinkedin,
   FaNodeJs,
