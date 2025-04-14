@@ -10,7 +10,7 @@ const DownloadResume = () => {
       <a
         href={resumePDF}
         download="Aryan_Thakur_Resume.pdf"
-        className="inline-flex mr-2 mb-5 items-center gap-2 rounded-3xl bg-white/10 px-6 py-3 text-[hsla(52,97.3%,96.2%,0.8)] font-medium transition-all duration-300 hover:bg-white/20 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/30 group"
+        className="inline-flex  mb-5 items-center gap-2 rounded-3xl bg-white/10 px-6 py-3 text-[hsla(52,97.3%,96.2%,0.8)] font-medium transition-all duration-300 hover:bg-white/20 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/30 group"
         aria-label="Download Aryan Thakur's resume as a PDF"
       >
         <FaDownload className="text-lg group-hover:animate-pulse" />
@@ -20,7 +20,7 @@ const DownloadResume = () => {
           href={resumePDF}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-3xl bg-white/10 px-6 py-3 text-[hsla(52,97.3%,96.2%,0.8)] font-medium transition-all duration-300 hover:bg-white/20 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/30 group"
+          className="inline-flex ml-1 items-center gap-2 rounded-3xl bg-white/10 px-6 py-3 text-[hsla(52,97.3%,96.2%,0.8)] font-medium transition-all duration-300 hover:bg-white/20 hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/30 group"
           aria-label="View Aryan Thakur's resume in a new tab"
         >
           <FaEye className="text-lg group-hover:animate-scale" />
