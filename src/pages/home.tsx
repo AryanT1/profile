@@ -52,12 +52,12 @@ const Home = () => {
         </div>
 
         {/* Social Buttons Card */}
-        <div className="flex shrink-0 sm:gap-11 justify-between rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 sm:flex-col sm:w-48 transition-all duration-300 hover:shadow-lg">
+        <div className="flex shrink-0 sm:gap-11 gap-2 justify-between rounded-2xl bg-[hsl(58,3.7%,13.1%)] p-6 sm:flex-col sm:w-48 transition-all duration-300 hover:shadow-lg">
           <a
             href="https://github.com/AryanT1"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's GitHub"
           >
             <FaGithub className="text-xl" />
@@ -67,7 +67,7 @@ const Home = () => {
             href="https://www.linkedin.com/in/aryannthakur/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's LinkedIn"
           >
             <FaLinkedin className="text-xl" />
@@ -77,7 +77,7 @@ const Home = () => {
             href="https://x.com/Aryann_0"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="flex items-center gap-2 rounded-3xl bg-white/10 px-4 py-2 text-white transition-all hover:bg-white/20 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/30"
             aria-label="Visit Aryan Thakur's X"
           >
             <FaSquareXTwitter className="text-xl" />
