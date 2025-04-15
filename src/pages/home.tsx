@@ -177,17 +177,17 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col    sm:flex sm:flex-row gap-6 p-4 ">
-        <div className="flex mx-auto items-center">
+      <div className="flex flex-col items-center md:items-start md:flex-row gap-6 p-6 w-full md:w-fit ">
+        <div className="w-full sm:w-fit sm:flex-1">
           <Experience experiences={experiences} />
         </div>
-        <div className=" grid mx-auto  grid-col-2 gap-2 lg:gap-6 sm:flex sm:flex-col lg:flex-row lg:flex ">
-          <div>
-            <DownloadResume />
-          </div>
-          <div className=" sm:w-fit"><WriteToMe/></div>
+
+        <div className="flex flex-col gap-4 w-fit  ">
+          <DownloadResume />
+          <WriteToMe />
         </div>
       </div>
+      
     </div>
   );
 };
