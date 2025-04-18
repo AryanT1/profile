@@ -171,6 +171,7 @@ const Home = () => {
               <Project
                 directionToGit="https://github.com/AryanT1/Show"
                 viewImg={show}
+                directionToSite="https://movie-five-nu.vercel.app/"
               />
             </div>
           </div>
