@@ -25,7 +25,7 @@ const Home = () => {
   const experiences = [
     {
       role: "Full Stack Developer",
-      company: "Concric(Tech Start )",
+      company: "Concric(Tech Start-up )",
       period: "Jan 2024 - Feb 2025",
       responsibilities: [
         "Developed scalable web applications using React, Node.js, and MongoDB.",
